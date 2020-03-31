@@ -23,7 +23,6 @@ public class Main {
         circle.getInfo();
         System.out.println("perimetr: " + circle.getPerimetr());
         System.out.println("square: " + circle.getSquare());
-        System.out.println();
 
         /**
          * This is info about rectangle
