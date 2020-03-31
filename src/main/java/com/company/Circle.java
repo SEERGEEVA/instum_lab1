@@ -29,4 +29,9 @@ public class Circle {
 
         return radius;
     }
+
+    public double getDiametr() {
+
+        return 2 * radius;
+    }
 }
