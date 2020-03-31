@@ -1,5 +1,7 @@
 package main.java.com.company;
 
+import static java.lang.StrictMath.sqrt;
+
 public class Rectangle {
 
     double height;
@@ -38,4 +40,9 @@ public class Rectangle {
 
         return width;
     }
-}
+
+    public double getDiagonale() {
+
+        return sqrt( height * height + width * width);
+    }
+ }
