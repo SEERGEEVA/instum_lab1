@@ -34,4 +34,9 @@ public class Circle {
 
         return 2 * radius;
     }
+
+    public double gethalfPerimetr() {
+
+        return 3.14 * radius;
+    }
 }
