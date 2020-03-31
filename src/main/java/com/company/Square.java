@@ -30,4 +30,9 @@ public class Square {
 
         return side;
     }
+
+    public double getDiagonale() {
+
+        return 1.414 * side;
+    }
 }
